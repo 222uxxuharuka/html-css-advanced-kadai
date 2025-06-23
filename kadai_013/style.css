@@ -15,8 +15,8 @@ p {
 @media screen and (min-width: 768px) {
   body {
     max-width: 1080px;
-    min-width: 960px;
-    margin: 0 auto 0 auto;
+    min-width: 375px;
+    margin: 0;
   }
 
   header {

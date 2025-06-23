@@ -1,4 +1,4 @@
-/* PC、スマホ共通スタイル */
+
 body {
   font-family: "Source Sans Pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial,
     sans-serif;
@@ -12,31 +12,23 @@ p {
   width: 100%;
 }
 
-/*================
-PC用のスタイル 
-=================*/
 @media screen and (min-width: 768px) {
-  /* 横幅設定 */
   body {
     max-width: 1080px;
     min-width: 960px;
     margin: 0 auto 0 auto;
   }
 
-  /* ヘッダー */
   header {
     display: flex;
     justify-content: space-between;
   }
 
-  /* ナビゲーションのレイアウト */
   #nav-pc {
     text-align: right;
     font-size: 14px;
     padding-top: 15px;
   }
-
-  /* ナビゲーションのリンクの装飾設定 */
   #nav-pc>a {
     text-decoration: none;
     margin-left: 20px;
@@ -59,18 +51,12 @@ PC用のスタイル
     color: #0d0d0d;
   }
 }
-/*======== 前略 ========*/
 
-/*====================
- スマートフォン用のスタイル
-=====================*/
 @media screen and (max-width: 767px) {
-  /* PC用ナビゲーション非表示 */
   #nav-pc {
     display: none;
   }
 }
-  /* ハンバーガーメニュー */
   #menu-sp {
     display: block;
     background-color: transparent;
@@ -79,8 +65,6 @@ PC用のスタイル
     border: none;
   }
 
-  /* スマホ用ナビゲーションの表示切替*/
-  /* 初期状態、レイアウトと非表示設定 */
   #nav-sp {
     background-color:#ce933e;
     position: fixed;
@@ -92,7 +76,6 @@ PC用のスタイル
     z-index: 100;
   }
 
-  /* ×ボタン */
   #close {
     position: absolute;
     top: 20px;
@@ -109,30 +92,29 @@ PC用のスタイル
     list-style: none;
   }
 
-  /* ナビゲーションメニュー用ロゴ */
   #logo-sp {
     margin: 80px 0 30px 20px;
   }
 
-  /* ナビゲーションのリンクの装飾設定 */
   #nav-sp nav a {
     display: block;
     color: #ffffff;
   }
- 
-  #nav-sp nav a:hover {
-     text-decoration: underline;
-   }
- 
-   #nav-sp .menu {
-     text-decoration: none;
-     margin: 0 20px 0 20px;
-     height: 44px;
-     font-size: 16px;
-     background-image: url("images/arrow.png");
-     background-repeat: no-repeat;
-     background-position: right top;
-   }
+ #nav-sp a.menu {
+  text-decoration: none;
+  color: #ffffff;
+  display: block;
+  margin: 0 20px;
+  height: 44px;
+  font-size: 16px;
+  background-image: url("images/arrow.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+#nav-sp ul {
+  list-style: none;
+  padding-left: 0;
+}
 
 @media screen and (min-width: 768px) {
   header #menu-sp {

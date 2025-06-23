@@ -69,7 +69,7 @@ PC用のスタイル
   #nav-pc {
     display: none;
   }
-
+}
   /* ハンバーガーメニュー */
   #menu-sp {
     display: block;
@@ -133,4 +133,4 @@ PC用のスタイル
      background-repeat: no-repeat;
      background-position: right top;
    }
-}
+

@@ -9,15 +9,23 @@ p {
 }
 
 #main-visual>img {
-  width: 100%;
-}
+      width: 100%;
+     height: auto;
+    
+ }
 
 @media screen and (min-width: 768px) {
   body {
     max-width: 1080px;
     min-width: 375px;
-    margin: 0;
+    margin: 0　auto;
+    width:auto
   }
+ 
+  #nav-pc {
+  display: flex;
+  justify-content:space-between; 
+}
 
   header {
     display: flex;

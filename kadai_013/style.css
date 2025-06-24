@@ -55,6 +55,8 @@ p {
 @media screen and (max-width: 767px) {
   #nav-pc {
     display: none;
+    min-width: 375px;
+    margin: 0;
   }
 }
   #menu-sp {

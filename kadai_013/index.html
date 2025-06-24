@@ -8,20 +8,21 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-   
+    <!-- ヘッダー -->
     <header>
+      <!-- ロゴ -->
       <a href="index.html" id="logo"><img src="images/logo.png" alt="トップページに戻る"/></a>
 
-   
+      <!-- PC用ナビゲーション -->
       <nav id="nav-pc">
         <a href="index.html#concept">CONCEPT</a>
         <a href="index.html#product">PRODUCT</a>
         <a href="index.html#contact">CONTACT</a>
       </nav>
-       
+    <!-- スマホ用メニューボタン -->
     <img id="menu-sp" src="images/button-menu.png" alt="ナビゲーションを開く" onclick="document.getElementById('nav-sp').style.display = 'block'">
 
-   
+     <!-- スマホ用ナビゲーション -->
      <nav id="nav-sp">
        <ul>
          <li>
@@ -33,19 +34,19 @@
            </a>
          </li>
          <li>
-           <a class="menu" href="index.html" onclick="document.getElementById('nav-sp').style.display = 'none'">CONCEPT</a>
+           <a class="menu" href="index.html#concept" onclick="document.getElementById('nav-sp').style.display = 'none'">CONCEPT</a>
          </li>
          <li>
-           <a class="menu" href="index.html" onclick="document.getElementById('nav-sp').style.display = 'none'">PRODUCT</a>
+           <a class="menu" href="index.html#product" onclick="document.getElementById('nav-sp').style.display = 'none'">PRODUCT</a>
          </li>
-         <li><a class="menu" href="index.html" onclick="document.getElementById('nav-sp').style.display = 'none'">CONTACT</a>
+         <li><a class="menu" href="index.html#contact" onclick="document.getElementById('nav-sp').style.display = 'none'">CONTACT</a>
          </li>
        </ul>
      </nav>
-
     </header>
-         <main>
+    <main>
       <article>
+        <!-- メインビジュアル -->
         <section id="main-visual">
           <div id="main-message">
             <h1>Organic Cafe</h1>
@@ -57,6 +58,3 @@
     </main>
   </body>
 </html>
- 
- 
-      

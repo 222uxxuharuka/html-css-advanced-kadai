@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1080px;
+    margin: 0 auto;
+    font-family: "Source Sans Pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif;
+}
+
+#nav-pc ul {
+    display: flex;
+    justify-content: space-around; /*項目を均等に配置するなら */
+    padding: 0;
+    list-style-type: none;
+}
+
+#nav-pc li {
+    margin: 0;
+}
+
+#nav-pc img {
+    max-width: 100%; /* 画像の横幅を親要素に合わせる */
+}

@@ -1555,7 +1555,6 @@ footer {
    .culture-table {
      margin-right: 0;
      padding-right: 20px;
-     order: 2;
    }
  
    .culture-img {
@@ -2224,3 +2223,4 @@ footer {
   display: flex;
   justify-content: right;
 }
+ 
